@@ -61,6 +61,7 @@
         <div class="card card-compact w-96 bg-base-100 shadow-xl">
             <div id="selected-items" class="my-4 ">
                 <h2 class="font-bold text-lg border-b-2 solid border-gray-400">Your Cart Items</h2>
+                
             </div>
             <div class="card-body">
                 <div id="total-div" class="flex items-center justify-between font-semibold text-md  ">
@@ -71,8 +72,14 @@
                 <div id="discount-div" class="flex items-center justify-between font-semibold text-md  ">
                     
                     <h2 id="discount" >Discount</h2>
+                    <input class="shadow-inner" type="text" name="" placeholder="Coupon code here" id="discount-input">
                 </div>
-                <p class="font-bold text-md text-left border-t-2 solid border-gray-900">Grand Total</p>
+                <div id="total-div" class="flex items-center justify-between font-bold text-md border-t-2 solid border-gray-900 ">
+                    <h2 class="" id="grand">Grand Total</h2>
+                    <h2 class="" id="grand-amount">00</h2>
+                    
+                </div>
+                <!-- <p class="font-bold text-md text-left border-t-2 solid border-gray-900">Grand Total</p> -->
               <div class="card-actions justify-end">
                 <button class="btn btn-error">Buy Now</button>
               </div>
